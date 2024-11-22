@@ -70,6 +70,22 @@ body {
     font-weight: 900;
 }
 
+.download-c-btn {
+    display: block;
+    margin: auto;
+    width: 250px;
+    color: #FFF8F3;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
 .submit-btn {
     display: block;
     font-weight: 700;
@@ -83,7 +99,7 @@ body {
 
 /* Hover Style */
 
-.submit-btn:hover{
+.submit-btn:hover {
     background-color: #FD6E0A;
     color: #FFF;
 }
@@ -96,8 +112,9 @@ body {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-  }
-  .download-btn:before {
+}
+
+.download-btn:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -112,11 +129,48 @@ body {
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  .download-btn:hover:before, .download-btn:focus:before, .download-btn:active:before {
+}
+
+.download-btn:hover:before,
+.download-btn:focus:before,
+.download-btn:active:before {
     left: 0;
     right: 0;
-  }
+}
+
+.download-c-btn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.download-c-btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #FFF8F3;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.download-c-btn:hover:before,
+.download-c-btn:focus:before,
+.download-c-btn:active:before {
+    left: 0;
+    right: 0;
+}
 
 /* Banner Section */
 

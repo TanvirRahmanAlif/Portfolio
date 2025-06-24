@@ -205,7 +205,7 @@ section {
 /* header related styles */
 .header-section {
     background-color: #FFF8F3;
-    background-image: url('/css/images/header_bg.png'), url('/css/images/developer.png');
+    background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
     background-size: 53%, contain;
@@ -464,7 +464,7 @@ main {
 footer {
     background-color: #FFF8F3;
     height: 60vh;
-    background-image: url('/css/images/developer.png');
+    background-image: url('images/developer.png');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;

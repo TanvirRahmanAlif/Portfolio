@@ -8,232 +8,386 @@
 
     <link rel="shortcut icon" href="css/images/Profile Pic.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Google Fonts -->
-
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
     <!-- Icon -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
     <!-- What'sApp Button -->
-
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-da0e50e5-db8e-4130-904f-baba00a0ca98" data-elfsight-app-lazy></div>
 
     <!-- Animation -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Hover Style -->
-
     <link rel="stylesheet" href="css/hover.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <h3 class="nav-titel animate__animated animate__hinge animate__infinite animate__slower"> <span
-                    class="orange">T</span>A<span class="orange">N</span>V<span class="orange">I</span>R</h3>
+    <header class="header-section">
+        <!-- Button Back To Top -->
+        <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fa-solid fa-circle-up"></i>
+        </button>
 
-            <ul>
-                <li><a class="white-btn hvr-curl-top-left" href="https://github.com/TanvirRahmanAlif"
-                        target="_blank">P<span class="orange">O</span>R<span class="orange">T</span>F<span
-                            class="orange">O</span>L<span class="orange">I</span>O</a></li>
+        <!-- NavBar -->
+        <section class="navbar">
+            <nav>
+                <div class="nav-box">
+                    <h3 class="nav-title animate__animated animate__hinge animate__infinite animate__slower"> <span
+                            class="orange">T</span>A<span class="orange">N</span>V<span class="orange">I</span>R</h3>
+                </div>
 
-                <li><a class="white-btn hvr-glow" href="https://www.linkedin.com/in/md-tanvir-rahman-233279209/"
-                        target="_blank">LinkedIn</a></li>
+                <div class="nav-box">
+                    <ul>
+                        <li><a class="white-btn hvr-curl-top-left" href="https://www.fiverr.com/tanvir_smm/"
+                                target="_blank">P<span class="orange">O</span>R<span class="orange">T</span>F<span
+                                    class="orange">O</span>L<span class="orange">I</span>O</a></li>
 
-                <li><a class="hire-btn hvr-curl-top-right" href="https://www.fiverr.com/tanvir_smm" target="_blank">Hire
-                        Me</a></li>
-            </ul>
-        </nav>
+                        <li><a class="color-btn hvr-glow" href="https://www.linkedin.com/in/md-tanvir-rahman-233279209/"
+                                target="_blank">LinkedIn</a></li>
 
-        <div class="banner">
-            <div class="banner-content">
-                <h3 class="banner-greeting">Hi, I am</h3>
-                <h1 class="banner-title">MD. TANVIR RAHMAN</h1>
-                <p class="banner-description">Aspiring developer driven by a passion for crafting software solutions.
-                    Eager to delve into coding, problem-solving, and embracing new technologies. Committed to continuous
-                    learning and collaboration within the dynamic field of development.</p>
-                <ul class="banner-list">
-                    <li><a class="mail-btn hvr-float-shadow hvr-icon-drop" href="mailto:tanviralif2121@gmail.com"
-                            target="_blank"><i class="fa-solid fa-envelope-open-text hvr-icon"></i> Email Me</a></li>
+                        <li><a class="white-btn hvr-curl-top-right" href="https://github.com/TanvirRahmanAlif"
+                                target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
 
-                    <li><a class="white-btn  hvr-float-shadow hvr-icon-grow-rotate" href="tel:+8801766759720"
-                            target="_blank"><i class="fa-solid fa-phone hvr-icon"></i>
-                            Contact</a></li>
-                </ul>
+        <section class="banner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="banner-content">
+                            <h3>Hi, I am</h3>
+                            <h1>MD. TANVIR RAHMAN</h1>
+                            <p>I'm a passionate Front-End Web Developer with expertise in HTML, CSS, JavaScript, and
+                                WordPress. I specialize in creating responsive, user-friendly websites and custom
+                                themes. With a strong eye for design and performance, I turn ideas into functional,
+                                modern web experiences. Explore my portfolio to see how I bring creativity and code
+                                together.</p>
+
+                            <ul>
+                                <li><a class="mail-btn hvr-float-shadow hvr-icon-drop"
+                                        href="mailto:tanviralif2121@gmail.com" target="_blank"><i
+                                            class="fa-solid fa-envelope-open-text hvr-icon"></i> Email Me</a>
+                                </li>
+
+                                <li><a class="white-btn  hvr-float-shadow hvr-icon-grow-rotate"
+                                        href="tel:+8801766759720" target="_blank"><i
+                                            class="fa-solid fa-phone hvr-icon"></i>
+                                        Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="banner-img">
+                            <img src="css/images/Profile Pic.png" alt="Tanvir">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img class="profile-pic" src="css/images/Profile Pic.png" alt="Tanvir">
-        </div>
+        </section>
     </header>
+
     <main>
-        <section class="about">
-            <h3 class="section-title wow animate__animated animate__headShake animate__infinite animate__slow">About Me
-            </h3>
-            <p class="section-description">Hey, I'm Tanvir Rahman, aiming to be a web developer. I love building
-                user-friendly websites. Always learning and excited to use new tech. Let's create awesome online
-                experiences together.</p>
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about">
+                            <h3 class="wow animate__animated animate__headShake animate__infinite animate__slow">About
+                                Me</h3>
+                            <p>Hey, I'm Tanvir Rahman, aiming to be a web developer. I love building
+                                user-friendly websites. Always learning and excited to use new tech. Let's create
+                                awesome online
+                                experiences together.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <div class="about-info-container">
-                <div class="about-info">
-                    <h4 class="info-title">Name:</h4>
-                    <p class="info-description">MD. TANVIR RAHMAN</p>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">Email:</h4>
-                    <p class="info-description">tanviralif2121@gmail.com</p>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">Date of birth:</h4>
-                    <p class="info-description">15 April 1998</p>
-                </div>
-                <div class="about-info">
-                    <h4 class="info-title">From:</h4>
-                    <p class="info-description">Bogura, Rajshahi</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-info">
+                            <h4>Name:</h4>
+                            <p>MD. TANVIR RAHMAN</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-info">
+                            <h4>Email:</h4>
+                            <p>tanviralif2121@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-info">
+                            <h4>Date of birth:</h4>
+                            <p>15 April 1998</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="about-info">
+                            <h4>From:</h4>
+                            <p>Bogura, Rajshahi</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- what-i-do-section -->
+        <!-- What I Do Section -->
 
-        <section>
-            <h3 class="section-title wow animate__animated animate__heartBeat animate__infinite animate__slower">What I
-                do</h3>
-            <p id="widd" class="section-description">I have more than 10 years experience building software for clients
-                all over the world. Below is a quick overview of my main technical skill sets and technologies i use.
-                Want to find out more about my experience? Check out my online resume and project portfolio.</p>
-            <div class="skills-container">
-                <div class="skill">
-                    <img src="css/images/icons/js.png" alt="">
-                    <h3 class="skill-title">Vanilla JavaScript</h3>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                </div>
-                <div class="skill">
-                    <img src="css/images/icons/react.png" alt="">
-                    <h3 class="skill-title">React</h3>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                </div>
-                <div class="skill">
-                    <img src="css/images/icons/nodejs.png" alt="">
-                    <h3 class="skill-title">Node.js</h3>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                </div>
-                <div class="skill">
-                    <img src="css/images/icons/mongo.png" alt="">
-                    <h3 class="skill-title">MongoDB</h3>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+        <section class="what-i-do-section" id="what">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="what">
+                            <h3 class="wow animate__animated animate__heartBeat animate__infinite animate__slower">What
+                                I do</h3>
+                            <p>I have more than 1 years experience building websites for clients all over the world.
+                                Below is a quick overview of my main technical skill sets and technologies i use. Want
+                                to find out more about my experience? Check out my online resume and project portfolio.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="download-cv">
-                <a class="download-c-btn hvr-icon-down" href="css/portfolio-resources/MD. TANVIR RAHMAN.pdf"><i
-                        class="fa-solid fa-cloud-arrow-down hvr-icon"></i> Download Certificate</a>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="what-box">
+                            <img src="css/images/icons/code.png" alt="Coding" class="img-fluid">
+                            <h3>Coding</h3>
+                            <p>Coding is the foundation of all digital creations. It enables me to build interactive,
+                                functional, and efficient web experiences.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="what-box">
+                            <img src="css/images/icons/bootstrap.png" alt="Bootstrap" class="img-fluid">
+                            <h3>Bootstrap</h3>
+                            <p>Bootstrap is a powerful front-end framework for building responsive, mobile-first
+                                websites. I use it to create clean, consistent layouts with minimal custom code.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="what-box">
+                            <img src="css/images/icons/js-1.png" alt="JavaScript" class="img-fluid">
+                            <h3>JavaScript</h3>
+                            <p>JavaScript brings interactivity and dynamic behavior to websites. I use it to create
+                                responsive interfaces, handle user events, and enhance user experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="what-box">
+                            <img src="css/images/icons/wordpress.png" alt="WordPress" class="img-fluid">
+                            <h3>WordPress</h3>
+                            <p>WordPress is a powerful CMS for building and managing websites easily. I use it to
+                                develop custom themes, plugins, and fully responsive websites.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="download-cv">
+                            <a class="download-c-btn hvr-icon-down"
+                                href="css/portfolio-resources/MD. TANVIR RAHMAN.pdf"><i
+                                    class="fa-solid fa-cloud-arrow-down hvr-icon"></i> Skill's Certificate</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- ResumeSection -->
+        <!-- Resume Section -->
 
-        <section>
-            <h3 class="section-title wow animate__animated animate__zoomIn animate__infinite animate__slower">A Summary
-                of My Resume</h3>
-            <div class="resume-container">
-                <div class="resume-column">
-                    <h3 class="resume-column-title">My Education</h3>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Bachelor of Honours</h2>
-                        <h3 class="resume-item-institute">Naogaon Govt. Collage / Session: 2016 - 2017</h3>
-                        <p class="resume-item-description">Now I'm studying at Naogaon Govt. Collage at the department
-                            of Physics. Which is under four year course.
-                        </p>
+        <section class="resume-section" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="resume-title">
+                            <h3 class="wow animate__animated animate__zoomIn animate__infinite animate__slower">A
+                                Summary of My Resume</h3>
+                        </div>
                     </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Higher Secondary Certificate</h2>
-                        <h3 class="resume-item-institute">Govt. Azizul Haque Collage / 2016</h3>
-                        <p class="resume-item-description">I have complete my H.S.C degree from Govt. Azizul Haque
-                            Collage, Bogura at department of Science.
-                        </p>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="resume-box">
+                            <div class="resume-box-title">
+                                <h3>My Education</h3>
+                            </div>
+
+                            <div class="resume-box-content">
+                                <div class="resume-item">
+                                    <h2>Bachelor of Honours</h2>
+                                    <h3>Naogaon Govt. Collage / Session: 2016 - 2017</h3>
+                                    <p>Now I'm studying at Naogaon Govt. Collage, Naogaon at the department of Physics.
+                                        Which is under four year course.</p>
+                                </div>
+                                <hr>
+                                <div class="resume-item">
+                                    <h2>Higher Secondary Certificate</h2>
+                                    <h3>Govt. Azizul Haque Collage / 2016</h3>
+                                    <p>I have complete my H.S.C degree from Govt. Azizul Haque Collage, Bogura at
+                                        department of Science.</p>
+                                </div>
+                                <hr>
+                                <div class="resume-item">
+                                    <h2>Secondary School Certificate</h2>
+                                    <h3>Karatoa Multimedia School & Collage / 2014</h3>
+                                    <p>I have complete my S.S.C degree from Karatoa Multimedia School & Collage, Bogura
+                                        at department of Science.</p>
+                                </div>
+                                <hr>
+                            </div>
+
+                            <div class="download-cv">
+                                <a class="download-btn hvr-icon-down" href="css/portfolio-resources/Alif Resume.pdf"><i
+                                        class="fa-solid fa-cloud-arrow-down hvr-icon"></i> Curriculum Vitae</a>
+                            </div>
+                        </div>
                     </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Secondary School Certificate</h2>
-                        <h3 class="resume-item-institute">Karatoa Multimedia School & Collage / 2014</h3>
-                        <p class="resume-item-description">I have complete my S.S.C degree from Karatoa Multimedia
-                            School & Collage, Bogura at department of Science.
-                        </p>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="resume-box">
+                            <div class="resume-box-title">
+                                <h3>My Experience</h3>
+                            </div>
+
+                            <div class="resume-box-content">
+                                <div class="resume-item">
+                                    <h2>Internship</h2>
+                                    <h3>GAOTek Inc.</h3>
+                                    <p>Completed a Front-End WordPress Developer internship, gaining hands-on experience
+                                        in theme customization, plugin integration, and responsive design. Worked on
+                                        real-world projects to enhance performance and user experience.</p>
+                                </div>
+                                <hr>
+                                <div class="resume-item">
+                                    <h2>Skill</h2>
+                                    <h3>Front-End Web Development</h3>
+                                    <p>Dive into web development an art of crafting digital experiences. Learn HTML,
+                                        CSS, JavaScript and WordPress to shape the future of the online world.</p>
+                                </div>
+                                <hr>
+                                <div class="resume-item">
+                                    <h2>Skill</h2>
+                                    <h3>Digital Marketing</h3>
+                                    <p>I'm a Social Media Marketer in a sector of Digital Marketing. I work in the
+                                        Fiverr marketplace.</p>
+                                </div>
+                                <hr>
+                            </div>
+
+                            <div class="download-cv">
+                                <a class="download-btn hvr-icon-down" href="#"><i
+                                        class="fa-solid fa-cloud-arrow-down hvr-icon"></i> Internship Certificate</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="resume-column">
-                    <h3 class="resume-column-title">My Experience</h3>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Freelancing</h2>
-                        <h3 class="resume-item-institute">Digital Marketing</h3>
-                        <p class="resume-item-description">I'm a Social Media Marketer in a sector of Digital Marketing.
-                            I work in the Fiverr marketplace.
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Learning</h2>
-                        <h3 class="resume-item-institute">Web Development</h3>
-                        <p class="resume-item-description">Dive into web development—an art of crafting digital
-                            experiences. Learn HTML, CSS, and JavaScript to shape the future of the online world.</p>
-                    </div>
-                    <hr>
-                    <div class="resume-item">
-                        <h2 class="resume-item-title">Experience</h2>
-                        <h3 class="resume-item-institute">Coming Soon</h3>
-                        <p class="resume-item-description">On the way<br>Loading....</p>
-                    </div>
-                </div>
-            </div>
-            <div class="download-cv">
-                <a class="download-btn hvr-icon-down" href="css/portfolio-resources/Alif Resume.pdf"><i
-                        class="fa-solid fa-cloud-arrow-down hvr-icon"></i> Download CV</a>
             </div>
         </section>
     </main>
+
     <footer>
-        <div class="footer-column">
-            <h3 class="section-title wow animate__animated animate__backInLeft animate__infinite animate__slower">Let's
-                Connect</h3>
-            <p class="section-description">Please fill out the form on this section to contact with me or call between
-                9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
-            <div class="social-links">
-                <a class="hvr-wobble-top" href="https://www.facebook.com/tanvir.alif2012" target="_blank"><img
-                        src="css/images/icons/facebook.png" alt="FaceBook"></a>
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="foot-1">
+                            <div class="foot-title">
+                                <h3 class="wow animate__animated animate__backInLeft animate__infinite animate__slower">
+                                    Let's Connect</h3>
+                                <h6>Feel free to reach out to me!</h6>
+                                <p>You can contact me directly via phone or email for any project inquiries,
+                                    collaboration, or freelance work. Also, connect with me on social media for updates,
+                                    portfolio highlights, and more!</p>
+                            </div>
+                            <div class="social-links">
+                                <a class="hvr-wobble-top" href="https://www.facebook.com/tanvir.alif2012"
+                                    target="_blank"><img src="css/images/icons/facebook.png" alt="FaceBook"></a>
 
-                <a class="hvr-wobble-top" href="https://www.instagram.com/suvro_903/" target="_blank"><img
-                        src="css/images/icons/insta.png" alt="Instagram"></a>
+                                <a class="hvr-wobble-top" href="https://www.instagram.com/suvro_903/"
+                                    target="_blank"><img src="css/images/icons/insta.png" alt="Instagram"></a>
 
-                <a class="hvr-wobble-top" href="https://join.skype.com/invite/WEX39kLGDhHI" target="_blank"><img
-                        src="css/images/icons/skype-24.png" alt="Skype"></a>
+                                <a class="hvr-wobble-top" href="https://github.com/TanvirRahmanAlif"
+                                    target="_blank"><img src="css/images/icons/github-24.png" alt="GitHub"></a>
 
-                <a class="hvr-wobble-top" href="https://github.com/TanvirRahmanAlif" target="_blank"><img
-                        src="css/images/icons/github-24.png" alt="GitHub"></a>
+                                <a class="hvr-wobble-top" href="https://www.fiverr.com/tanvir_smm/" target="_blank"><img
+                                        src="css/images/icons/fiverr.png" alt="Fiverr"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="foot-2">
+                            <div class="foot-title-2">
+                                <h3 class="wow animate__animated animate__zoomOut animate__infinite animate__slower">
+                                    Local Time Zone</h3>
+                            </div>
+
+                            <div class="time">
+                                <h5>Local Time:</h5>
+                                <p><span id="time"></span></p>
+                                <h5>Local Date:</h5>
+                                <p><span id="date"></span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="foot-3">
+                            <div class="foot-title">
+                                <h3
+                                    class="wow animate__animated animate__backInRight animate__infinite animate__slower">
+                                    Quick Link</h3>
+                            </div>
+
+                            <div class="quick-link">
+                                <ul>
+                                    <li><a href="#about">About Me</a></li>
+                                    <li><a href="#what">What I do</a></li>
+                                    <li><a href="#resume">My Resume</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="footer-column">
-            <h3 class="section-title wow animate__animated animate__backInRight animate__infinite animate__slower">Let's
-                Message Me</h3>
-            <form class="contact" action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" name="" placeholder="Your E-mail" id="">
-                <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
-                <input class="submit-btn" type="submit" value="Submit">
-            </form>
-        </div>
+        </section>
     </footer>
 
+    <!-- External JS -->
+    <script src="js/script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- WOW JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();

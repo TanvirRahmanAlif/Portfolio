@@ -36,11 +36,18 @@
 
     .banner-content h3 {
         font-size: 25px;
-        text-align: ;
     }
 
     .banner-content h1 {
         font-size: 33px;
+    }
+
+    .about-section {
+        padding: 50px;
+    }
+
+    .about {
+        text-align: justify;
     }
 
     .about h3,
@@ -55,6 +62,11 @@
         margin: 30px auto;
     }
 
+    .download-btn {
+        padding: 10px 7px;
+        font-size: 18px;
+    }
+
     footer {
         height: auto;
     }
@@ -67,11 +79,14 @@
     }
 
     .foot-1 {
-        padding: 0 85px;
         margin-bottom: 20px;
     }
 
     .social-links {
         margin-left: -15%;
+    }
+
+    .social-links a img {
+        width: 100%;
     }
 }

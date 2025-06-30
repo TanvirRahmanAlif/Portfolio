@@ -46,10 +46,6 @@
         padding: 50px;
     }
 
-    .about {
-        text-align: justify;
-    }
-
     .about h3,
     .what h3,
     .resume-title h3,
@@ -63,8 +59,8 @@
     }
 
     .download-btn {
-        padding: 10px 7px;
-        font-size: 18px;
+        padding: 10px 5px;
+        font-size: 17px;
     }
 
     footer {
@@ -76,17 +72,5 @@
     .foot-3 {
         text-align: center;
         padding: 20px;
-    }
-
-    .foot-1 {
-        margin-bottom: 20px;
-    }
-
-    .social-links {
-        margin-left: -15%;
-    }
-
-    .social-links a img {
-        width: 100%;
     }
 }

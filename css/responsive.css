@@ -58,7 +58,15 @@
         margin: 30px auto;
     }
 
-    .download-btn {
+    .hr-p {
+        margin-top: 20px;
+    }
+
+    .hr-g {
+        margin-top: 40px;
+    }
+
+    .download-btn, .download-c-btn {
         padding: 10px 5px;
         font-size: 17px;
     }
